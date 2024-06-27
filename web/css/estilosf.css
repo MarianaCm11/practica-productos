@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Raleway", sans-serif;
+}
+form{
+    margin-top: 20px;
+    width: 300px;
+    box-shadow: 0 0 12px rgb(23, 104, 87);
+    padding: 30px;
+    border-radius: 7px;
+}
+
+.formP{
+    margin-top: 20px;
+    width: 300px;
+    box-shadow: 0 0 12px rgb(23, 47, 104);
+    padding: 30px;
+    border-radius: 7px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputP{
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: 8px 5px;
+    background-color: rgb(206, 212, 230);
+    border: 0px;
+    border-radius: 6px;
+    outline-color:rgb(11, 19, 59) ;
+    width: 80%;
+}
+input{
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: 8px 5px;
+    background-color: rgb(206, 230, 225);
+    border: 0px;
+    border-radius: 6px;
+    outline-color:rgb(11, 59, 49) ;
+    width: 80%;
+}
+.buttonP{
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: rgb(20, 38, 109) ;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 20px;    
+}
+
+button{
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: rgb(11, 59, 49) ;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 20px;    
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button:hover{
+    background-color: rgb(20, 111, 93) ;
+}
+.buttonP:hover{
+    background-color: rgb(14, 27, 77) ;
+}
+.error{
+    background-color: rgb(252, 149, 163); 
+    border: 1px solid  rgb(151, 24, 41);
+}
+.circleCrossNombre, .circleCrossCelular, .circleCrossCorreo{
+    color: rgb(161, 52, 52);
+}
+
+.circleCrossPrecio, .circleCrossCantidad, .circleCheckDescuento{
+    color: rgb(161, 52, 52);
+}
+
+.ocultar{
+    visibility: hidden;
+}
+
+.mensajeNombre, .mensajeCelular, .mensajeCorreo{
+    color: rgb(161, 52, 52);
+    font-size: small;
+}
+.mensajePrecio, .mensajeCantidad, .mensajeDescuento{
+    color: rgb(161, 52, 52);
+    font-size: small;
+}
+.circleCheckNombre, .circleCheckCelular, .circleCheckCorreo{
+    color: rgb(88, 190, 14)
+}
+.circleCheckPrecio, .circleCheckCantidad, .circleCheckDescuento{
+    color: rgb(88, 190, 14)
+}
+
+.correcto{
+    background-color: rgb(186, 247, 137); 
+    border: 1px solid  rgb(59, 179, 16);
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
